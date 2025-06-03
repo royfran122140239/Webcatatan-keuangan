@@ -42,9 +42,9 @@ CatatDuit adalah aplikasi web untuk mencatat pemasukan dan pengeluaran harian se
 # 1. Jalankan Backend
 cd backend
 python -m venv env
-source env/bin/activate      # Untuk Linux/macOS
+source env/bin/activate      #Linux/macOS
 # atau
-env\Scripts\activate         # Untuk Windows
+env\Scripts\activate         #Windows
 
 pip install -r requirements.txt
 pserve development.ini --reload
